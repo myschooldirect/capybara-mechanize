@@ -10,8 +10,6 @@ Dir[File.join(PROJECT_ROOT, 'spec', 'support', '**', '*.rb')].each { |file| requ
 
 RSpec.configure do |config|
   # Spruce up the focus!
-  config.filter_run :focus => true
-  config.run_all_when_everything_filtered = true
   config.treat_symbols_as_metadata_keys_with_true_values = true
 
   # Used with DisableExternalTests
